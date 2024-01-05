@@ -4,8 +4,8 @@
 </h2>
 
 <div align="center">
-  <img src="./Images/dsk.png" alt="Demo" style="width:200px; height: auto;" />
-  <img src="./Images/ph.png" alt="Demo" style="width:51px; height: auto;" />
+  <img src="./Images/dsk.png" alt="Demo" style="width:800px; height: auto;" />
+  <img src="./Images/ph.png" alt="Demo" style="width:201px; height: auto;" />
 </div>
 <br/>
 
