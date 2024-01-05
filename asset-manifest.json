@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ktdk-portfolio/static/css/main.f2bb8615.css",
-    "main.js": "/ktdk-portfolio/static/js/main.9d6a069c.js",
+    "main.js": "/ktdk-portfolio/static/js/main.0b867167.js",
     "static/js/787.7da95b79.chunk.js": "/ktdk-portfolio/static/js/787.7da95b79.chunk.js",
     "static/media/slick.svg": "/ktdk-portfolio/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/ktdk-portfolio/static/media/slick.a4e97f5a2a64f0ab1323.eot",
@@ -9,11 +9,11 @@
     "static/media/slick.woff": "/ktdk-portfolio/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/ktdk-portfolio/index.html",
     "main.f2bb8615.css.map": "/ktdk-portfolio/static/css/main.f2bb8615.css.map",
-    "main.9d6a069c.js.map": "/ktdk-portfolio/static/js/main.9d6a069c.js.map",
+    "main.0b867167.js.map": "/ktdk-portfolio/static/js/main.0b867167.js.map",
     "787.7da95b79.chunk.js.map": "/ktdk-portfolio/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f2bb8615.css",
-    "static/js/main.9d6a069c.js"
+    "static/js/main.0b867167.js"
   ]
 }
