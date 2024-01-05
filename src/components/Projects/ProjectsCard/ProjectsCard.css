@@ -1,0 +1,124 @@
+.projects-card {
+  background: #130f2a;
+  border-radius: 0.65rem;
+  border: 1.5px solid #6751b9;
+  padding: 1.5rem;
+  margin: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 25rem;
+}
+
+.projects-card h6 {
+  font-size: 1.05rem;
+  font-weight: 500;
+  margin-bottom: 0.7rem;
+  background: rgba(103, 81, 185, 0.5);
+  padding: 0.4rem 0.6rem;
+  margin-bottom: 1.3rem;
+}
+
+.preview {
+  padding: 1rem 0;
+  border-radius: 0.65rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.preview-container,
+.preview-image {
+  width: clamp(10rem, 10vw, 30rem);
+  height: clamp(10rem, 10vh, 30rem);
+}
+
+.preview-image {
+  object-fit: cover;
+}
+
+.preview-description {
+  margin-top: 1rem;
+  font-size: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.preview-languages {
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.preview-languages > span {
+  border: 1.5px solid #6751b9;
+  padding: 0.2rem 0.5rem;
+  margin-right: 0.5rem;
+  text-align: center;
+  font-size: 0.6rem;
+}
+
+.preview-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  font-size: 0.6rem;
+}
+
+.preview-buttons img {
+  width: 0.6rem;
+  height: 0.6rem;
+  object-fit: contain;
+  cursor: pointer;
+  margin-right: 0.3rem;
+}
+
+.preview-buttons button {
+  border: none;
+  border-radius: 0.1rem;
+  padding: 0.3rem 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 800px) {
+  .projects-card h6 {
+    font-size: 0.6rem;
+  }
+
+  .preview-languages {
+    display: grid;
+    grid-template-columns: max-content min-content;
+    gap: 0.1rem; 
+  }
+
+  .preview-languages > span {
+    padding: 0.1rem;
+    font-size: 0.45rem;
+  }
+
+  .preview-buttons img {
+    width: 0.5rem;
+    height: 0.5rem;
+    position: relative;
+    left: 0.2rem;
+  }
+
+  .preview-buttons button {
+    max-width: 2rem;
+    max-height: 1rem;
+  }
+
+  .preview-buttons button span {
+    display: none;
+  }
+}
+
+
