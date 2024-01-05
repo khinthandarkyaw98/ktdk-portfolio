@@ -21,11 +21,11 @@ const ProjectsCard = ({ details }) => {
           </div>
           <div className="preview-buttons">
             <button onClick={() => window.open(details.link, '_blank')}>
-            <img src="../../assets/images/link-icon.png"  alt="" />
+            <img src="./assets/images/link-icon.png"  alt="" />
             <span>Live</span>
             </button>
               <button onClick={() => window.open(details.code, '_blank')}>
-                <img src="../../assets/images/github-icon.png" alt="" />
+                <img src="./assets/images/github-icon.png" alt="" />
                 <span>code</span>
               </button>
           </div>
