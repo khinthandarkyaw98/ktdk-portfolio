@@ -50,6 +50,13 @@ export const PROJECTS = [
     code: 'https://github.com/khinthandarkyaw98/random-quote-generator'
   },
   {
+    title: 'Weather Application',
+    link: 'https://coralweather-9419b.web.app/',
+    image: './assets/images/weather-app.png',
+    lang: ['HTML', 'CSS', 'JavaScript', 'Firebase'],
+    code: 'https://github.com/khinthandarkyaw98/WebDevelopment/tree/main/00AllAboutJSPractice/02WeatherApp'
+  },
+  {
     title: 'Product Landing Page',
     link: 'https://khinthandarkyaw98.github.io/product-landing-page/',
     image: './assets/images/product.png',
